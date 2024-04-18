@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="com.mycompany.mysystem.example.LoginTest" time="5.751" tests="4" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="gopherProxySet" value="false"/>
+    <property name="awt.toolkit" value="sun.lwawt.macosx.LWCToolkit"/>
+    <property name="java.specification.version" value="11"/>
+    <property name="sun.cpu.isalist" value=""/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.class.path" value="/Users/laneymodlin/IdeaProjects/Struts-Demo/myWebApp/target/test-classes:/Users/laneymodlin/IdeaProjects/Struts-Demo/myWebApp/target/classes:/Users/laneymodlin/.m2/repository/org/apache/struts/struts2-core/6.1.1/struts2-core-6.1.1.jar:/Users/laneymodlin/.m2/repository/org/freemarker/freemarker/2.3.31/freemarker-2.3.31.jar:/Users/laneymodlin/.m2/repository/ognl/ognl/3.3.4/ognl-3.3.4.jar:/Users/laneymodlin/.m2/repository/org/javassist/javassist/3.29.0-GA/javassist-3.29.0-GA.jar:/Users/laneymodlin/.m2/repository/commons-fileupload/commons-fileupload/1.4/commons-fileupload-1.4.jar:/Users/laneymodlin/.m2/repository/commons-io/commons-io/2.9.0/commons-io-2.9.0.jar:/Users/laneymodlin/.m2/repository/org/apache/commons/commons-lang3/3.10/commons-lang3-3.10.jar:/Users/laneymodlin/.m2/repository/org/apache/commons/commons-text/1.10.0/commons-text-1.10.0.jar:/Users/laneymodlin/.m2/repository/org/apache/struts/struts2-config-browser-plugin/6.1.1/struts2-config-browser-plugin-6.1.1.jar:/Users/laneymodlin/.m2/repository/org/apache/struts/struts2-velocity-plugin/6.1.1/struts2-velocity-plugin-6.1.1.jar:/Users/laneymodlin/.m2/repository/org/apache/velocity/velocity-engine-core/2.3/velocity-engine-core-2.3.jar:/Users/laneymodlin/.m2/repository/org/slf4j/slf4j-api/1.7.30/slf4j-api-1.7.30.jar:/Users/laneymodlin/.m2/repository/org/apache/velocity/tools/velocity-tools-view/3.1/velocity-tools-view-3.1.jar:/Users/laneymodlin/.m2/repository/org/apache/velocity/tools/velocity-tools-generic/3.1/velocity-tools-generic-3.1.jar:/Users/laneymodlin/.m2/repository/commons-beanutils/commons-beanutils/1.9.4/commons-beanutils-1.9.4.jar:/Users/laneymodlin/.m2/repository/commons-collections/commons-collections/3.2.2/commons-collections-3.2.2.jar:/Users/laneymodlin/.m2/repository/com/github/cliftonlabs/json-simple/3.0.2/json-simple-3.0.2.jar:/Users/laneymodlin/.m2/repository/org/apache/commons/commons-digester3/3.2/commons-digester3-3.2.jar:/Users/laneymodlin/.m2/repository/commons-logging/commons-logging/1.1.1/commons-logging-1.1.1.jar:/Users/laneymodlin/.m2/repository/org/apache/velocity/tools/velocity-tools-view-jsp/3.1/velocity-tools-view-jsp-3.1.jar:/Users/laneymodlin/.m2/repository/org/apache/logging/log4j/log4j-api/2.19.0/log4j-api-2.19.0.jar:/Users/laneymodlin/.m2/repository/org/apache/logging/log4j/log4j-core/2.19.0/log4j-core-2.19.0.jar:/Users/laneymodlin/.m2/repository/org/apache/struts/struts2-junit-plugin/6.1.1/struts2-junit-plugin-6.1.1.jar:/Users/laneymodlin/.m2/repository/org/springframework/spring-test/5.3.23/spring-test-5.3.23.jar:/Users/laneymodlin/.m2/repository/org/springframework/spring-core/5.3.23/spring-core-5.3.23.jar:/Users/laneymodlin/.m2/repository/org/springframework/spring-jcl/5.3.23/spring-jcl-5.3.23.jar:/Users/laneymodlin/.m2/repository/org/springframework/spring-context/5.3.23/spring-context-5.3.23.jar:/Users/laneymodlin/.m2/repository/org/springframework/spring-aop/5.3.23/spring-aop-5.3.23.jar:/Users/laneymodlin/.m2/repository/org/springframework/spring-beans/5.3.23/spring-beans-5.3.23.jar:/Users/laneymodlin/.m2/repository/org/springframework/spring-expression/5.3.23/spring-expression-5.3.23.jar:/Users/laneymodlin/.m2/repository/junit/junit/4.13.1/junit-4.13.1.jar:/Users/laneymodlin/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/Users/laneymodlin/.m2/repository/javax/servlet/javax.servlet-api/3.1.0/javax.servlet-api-3.1.0.jar:/Users/laneymodlin/.m2/repository/javax/servlet/jsp/jsp-api/2.1/jsp-api-2.1.jar:"/>
+    <property name="java.vm.vendor" value="Azul Systems, Inc."/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.vendor.url" value="http://www.azul.com/"/>
+    <property name="user.timezone" value=""/>
+    <property name="java.vm.specification.version" value="11"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/zulu-11.jdk/Contents/Home/lib"/>
+    <property name="sun.java.command" value="/Users/laneymodlin/IdeaProjects/Struts-Demo/myWebApp/target/surefire/surefirebooter-20240418095815822_3.jar /Users/laneymodlin/IdeaProjects/Struts-Demo/myWebApp/target/surefire 2024-04-18T09-58-14_773-jvmRun1 surefire-20240418095815822_1tmp surefire_0-20240418095815822_2tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="/Users/laneymodlin/IdeaProjects/Struts-Demo/myWebApp/target/test-classes:/Users/laneymodlin/IdeaProjects/Struts-Demo/myWebApp/target/classes:/Users/laneymodlin/.m2/repository/org/apache/struts/struts2-core/6.1.1/struts2-core-6.1.1.jar:/Users/laneymodlin/.m2/repository/org/freemarker/freemarker/2.3.31/freemarker-2.3.31.jar:/Users/laneymodlin/.m2/repository/ognl/ognl/3.3.4/ognl-3.3.4.jar:/Users/laneymodlin/.m2/repository/org/javassist/javassist/3.29.0-GA/javassist-3.29.0-GA.jar:/Users/laneymodlin/.m2/repository/commons-fileupload/commons-fileupload/1.4/commons-fileupload-1.4.jar:/Users/laneymodlin/.m2/repository/commons-io/commons-io/2.9.0/commons-io-2.9.0.jar:/Users/laneymodlin/.m2/repository/org/apache/commons/commons-lang3/3.10/commons-lang3-3.10.jar:/Users/laneymodlin/.m2/repository/org/apache/commons/commons-text/1.10.0/commons-text-1.10.0.jar:/Users/laneymodlin/.m2/repository/org/apache/struts/struts2-config-browser-plugin/6.1.1/struts2-config-browser-plugin-6.1.1.jar:/Users/laneymodlin/.m2/repository/org/apache/struts/struts2-velocity-plugin/6.1.1/struts2-velocity-plugin-6.1.1.jar:/Users/laneymodlin/.m2/repository/org/apache/velocity/velocity-engine-core/2.3/velocity-engine-core-2.3.jar:/Users/laneymodlin/.m2/repository/org/slf4j/slf4j-api/1.7.30/slf4j-api-1.7.30.jar:/Users/laneymodlin/.m2/repository/org/apache/velocity/tools/velocity-tools-view/3.1/velocity-tools-view-3.1.jar:/Users/laneymodlin/.m2/repository/org/apache/velocity/tools/velocity-tools-generic/3.1/velocity-tools-generic-3.1.jar:/Users/laneymodlin/.m2/repository/commons-beanutils/commons-beanutils/1.9.4/commons-beanutils-1.9.4.jar:/Users/laneymodlin/.m2/repository/commons-collections/commons-collections/3.2.2/commons-collections-3.2.2.jar:/Users/laneymodlin/.m2/repository/com/github/cliftonlabs/json-simple/3.0.2/json-simple-3.0.2.jar:/Users/laneymodlin/.m2/repository/org/apache/commons/commons-digester3/3.2/commons-digester3-3.2.jar:/Users/laneymodlin/.m2/repository/commons-logging/commons-logging/1.1.1/commons-logging-1.1.1.jar:/Users/laneymodlin/.m2/repository/org/apache/velocity/tools/velocity-tools-view-jsp/3.1/velocity-tools-view-jsp-3.1.jar:/Users/laneymodlin/.m2/repository/org/apache/logging/log4j/log4j-api/2.19.0/log4j-api-2.19.0.jar:/Users/laneymodlin/.m2/repository/org/apache/logging/log4j/log4j-core/2.19.0/log4j-core-2.19.0.jar:/Users/laneymodlin/.m2/repository/org/apache/struts/struts2-junit-plugin/6.1.1/struts2-junit-plugin-6.1.1.jar:/Users/laneymodlin/.m2/repository/org/springframework/spring-test/5.3.23/spring-test-5.3.23.jar:/Users/laneymodlin/.m2/repository/org/springframework/spring-core/5.3.23/spring-core-5.3.23.jar:/Users/laneymodlin/.m2/repository/org/springframework/spring-jcl/5.3.23/spring-jcl-5.3.23.jar:/Users/laneymodlin/.m2/repository/org/springframework/spring-context/5.3.23/spring-context-5.3.23.jar:/Users/laneymodlin/.m2/repository/org/springframework/spring-aop/5.3.23/spring-aop-5.3.23.jar:/Users/laneymodlin/.m2/repository/org/springframework/spring-beans/5.3.23/spring-beans-5.3.23.jar:/Users/laneymodlin/.m2/repository/org/springframework/spring-expression/5.3.23/spring-expression-5.3.23.jar:/Users/laneymodlin/.m2/repository/junit/junit/4.13.1/junit-4.13.1.jar:/Users/laneymodlin/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/Users/laneymodlin/.m2/repository/javax/servlet/javax.servlet-api/3.1.0/javax.servlet-api-3.1.0.jar:/Users/laneymodlin/.m2/repository/javax/servlet/jsp/jsp-api/2.1/jsp-api-2.1.jar:"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="/Users/laneymodlin"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2024-01-16"/>
+    <property name="java.home" value="/Library/Java/JavaVirtualMachines/zulu-11.jdk/Contents/Home"/>
+    <property name="file.separator" value="/"/>
+    <property name="basedir" value="/Users/laneymodlin/IdeaProjects/Struts-Demo/myWebApp"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="jdk.vendor.version" value="Zulu11.70+15-CA"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.CGraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="/Users/laneymodlin/IdeaProjects/Struts-Demo/myWebApp/target/surefire/surefirebooter-20240418095815822_3.jar"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="11.0.22+7-LTS"/>
+    <property name="user.name" value="laneymodlin"/>
+    <property name="path.separator" value=":"/>
+    <property name="os.version" value="14.4.1"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="Zulu11.70+15-CA"/>
+    <property name="localRepository" value="/Users/laneymodlin/.m2/repository"/>
+    <property name="java.vendor.url.bug" value="http://www.azul.com/support/"/>
+    <property name="java.io.tmpdir" value="/var/folders/dt/y91r7yps1ml99kcnp4cd2qs40000gn/T/"/>
+    <property name="java.version" value="11.0.22"/>
+    <property name="user.dir" value="/Users/laneymodlin/IdeaProjects/Struts-Demo/myWebApp"/>
+    <property name="os.arch" value="aarch64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.lwawt.macosx.CPrinterJob"/>
+    <property name="sun.os.patch.level" value="unknown"/>
+    <property name="java.library.path" value="/Users/laneymodlin/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vendor" value="Azul Systems, Inc."/>
+    <property name="java.vm.version" value="11.0.22+7-LTS"/>
+    <property name="java.specification.maintenance.version" value="2"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="java.class.version" value="55.0"/>
+  </properties>
+  <testcase name="testLoginConfig" classname="com.mycompany.mysystem.example.LoginTest" time="5.497">
+    <system-out><![CDATA[2024-04-18 09:58:21,656 WARN  [main] ognl.OgnlUtil (OgnlUtil.java:845) - Working in devMode, using devMode excluded classes and packages!
+2024-04-18 09:58:21,729 WARN  [main] ognl.OgnlUtil (OgnlUtil.java:845) - Working in devMode, using devMode excluded classes and packages!
+]]></system-out>
+  </testcase>
+  <testcase name="testLoginSubmit" classname="com.mycompany.mysystem.example.LoginTest" time="0.055">
+    <system-out><![CDATA[2024-04-18 09:58:21,762 WARN  [main] ognl.OgnlUtil (OgnlUtil.java:845) - Working in devMode, using devMode excluded classes and packages!
+2024-04-18 09:58:21,787 WARN  [main] ognl.OgnlUtil (OgnlUtil.java:845) - Working in devMode, using devMode excluded classes and packages!
+]]></system-out>
+  </testcase>
+  <testcase name="testLoginSubmitInput" classname="com.mycompany.mysystem.example.LoginTest" time="0.13">
+    <system-out><![CDATA[2024-04-18 09:58:21,818 WARN  [main] ognl.OgnlUtil (OgnlUtil.java:845) - Working in devMode, using devMode excluded classes and packages!
+2024-04-18 09:58:21,839 WARN  [main] ognl.OgnlUtil (OgnlUtil.java:845) - Working in devMode, using devMode excluded classes and packages!
+]]></system-out>
+  </testcase>
+  <testcase name="testConfig" classname="com.mycompany.mysystem.example.LoginTest" time="0.046">
+    <system-out><![CDATA[2024-04-18 09:58:21,951 WARN  [main] ognl.OgnlUtil (OgnlUtil.java:845) - Working in devMode, using devMode excluded classes and packages!
+2024-04-18 09:58:21,968 WARN  [main] ognl.OgnlUtil (OgnlUtil.java:845) - Working in devMode, using devMode excluded classes and packages!
+]]></system-out>
+  </testcase>
+</testsuite>
