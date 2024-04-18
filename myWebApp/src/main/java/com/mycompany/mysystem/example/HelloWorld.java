@@ -30,7 +30,7 @@ public class HelloWorld extends ExampleSupport {
     }
 
     /**
-     * Provide default valuie for Message property.
+     * Provide default value for Message property.
      */
     public static final String MESSAGE = "HelloWorld.message";
 
